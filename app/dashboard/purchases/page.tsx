@@ -13,7 +13,7 @@ export default async function PurchasesPage() {
       suppliers (
         name
       ),
-      profiles (
+      profiles!purchases_user_id_fkey (
         full_name
       )
     `)

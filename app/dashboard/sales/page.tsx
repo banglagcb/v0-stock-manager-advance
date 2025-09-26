@@ -8,7 +8,7 @@ export default async function SalesPage() {
     .from("sales")
     .select(`
       *,
-      profiles (
+      profiles!sales_user_id_fkey (
         full_name
       )
     `)
